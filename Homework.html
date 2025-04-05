@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Add every element in the Array with 100</p>
+        <p id="sum_value"></p>
+        <script>
+            var numbers = [30, 50, 35, 10, 7, 94];
+            function myfunction(num) {
+                return num + 100
+            }
+            var newarray = numbers.map(myfunction);
+            document.getElementById("sum_value").innerHTML = newarray;
+        </script>
+    </body>
+</html>
